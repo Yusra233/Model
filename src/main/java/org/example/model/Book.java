@@ -50,6 +50,10 @@ public class Book
         return bid;
     }
 
+    public void setBid(int bid) {
+        this.bid = bid;
+    }
+
     @Override
     public String toString() {
         return "Book{" +
